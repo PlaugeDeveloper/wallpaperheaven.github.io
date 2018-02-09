@@ -1,0 +1,17 @@
+.jumbotron
+{
+	background-color: #333	;
+	margin-top: 10px;
+	color: #fff;
+}
+.btn
+{
+	width: 200px;	
+	margin-bottom: 5px;
+}
+.btn a
+{
+	color: #fff;
+	text-decoration: none;
+
+}
