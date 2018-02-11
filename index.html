@@ -23,22 +23,33 @@
     </ul>
   </div>
 </nav>
+
 	<div class="container-fluid">
 		<div class="jumbotron">
 			<h1>Wallpaper Heaven</h1>
 			<p>Free wallpapers for desktop and smartphones</p>
 		</div>
 		<div class="row">
-			<div class="col-md-4 col-sm-12">
+			<!-- main image display  -->
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<img class="img-thumbnail" src="wallpapers/instagram-large.jpeg" alt="instagram phone snapshot">
-				
+
+				<!-- trigger modal -->
+				<div id="myModal" class="modal"></div>
+				<!-- the close button -->
+				<span class="close">&times;</span>
+				<!-- modal content (the image) -->
+				<img id="img01" alt="" class="modal-content">
+				<!-- modal caption (image text) -->
+				<div id="caption"></div>
+
 				<div class="container">
 					<h3>Instragram Woods Wallpaper</h3>
 					<button type="button" class="btn btn-secondary"><a href="wallpapers/instagram-large.jpeg" download>Desktop Download</a></button>
 					<button type="button" class="btn btn-success"><a href="wallpapers/instagram-small.jpeg" download>Smartphone Download</a></button>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<img class="img-thumbnail" src="wallpapers/nature-forest-trees-fog-large.jpeg" alt="forest fog trees">
 				
 				<div class="container">
@@ -47,7 +58,7 @@
 					<button type="button" class="btn btn-success"><a href="wallpapers/nature-forest-trees-fog-small.jpeg" download>Smartphone Download</a></button>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<img class="img-thumbnail" src="wallpapers/pexels-photo-large.jpeg" alt="girl standing in grass field">
 				
 				<div class="container">
@@ -59,7 +70,7 @@
 		
 		</div><!-- row -->
 		<div class="row">
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<img class="img-thumbnail" src="wallpapers/purple-flower-large.jpeg" alt="blue flower">
 				
 				<div class="container">
@@ -68,7 +79,7 @@
 					<button type="button" class="btn btn-success"><a href="wallpapers/purple-flower-small.jpeg" download>Smartphone Download</a></button>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<img class="img-thumbnail" src="wallpapers/red-hair-large.jpeg" alt="red hair girl">
 				
 				<div class="container">
@@ -77,7 +88,7 @@
 					<button type="button" class="btn btn-success"><a href="wallpapers/red-hair-small.jpeg" download>Smartphone Download</a></button>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<img class="img-thumbnail" src="wallpapers/sand-phone-large.jpeg" alt="">
 				
 				<div class="container">
@@ -89,7 +100,7 @@
 		
 		</div><!-- row -->
 			<div class="row">
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<img class="img-thumbnail" src="wallpapers/signal-large.jpeg" alt="">
 				
 				<div class="container">
@@ -98,7 +109,7 @@
 					<button type="button" class="btn btn-success"><a href=wallpapers/signal-small.jpeg" download>Smartphone Download</a></button>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<img class="img-thumbnail" src="wallpapers/snow-mountain-large.jpeg" alt="">
 				
 				<div class="container">
@@ -107,7 +118,7 @@
 					<button type="button" class="btn btn-success"><a href="wallpapers/snow-mountain-small.jpeg" download>Smartphone Download</a></button>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<img class="img-thumbnail" src="wallpapers/time-large.jpeg" alt="">
 				
 				<div class="container">
@@ -122,5 +133,7 @@
 	
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="modal.js"></script>
+	<script data-cfasync='false' type='text/javascript' src='//p269863.clksite.com/adServe/banners?tid=269863_521096_0&type=shadowbox&size=38'></script>
 </body>
 </html>
